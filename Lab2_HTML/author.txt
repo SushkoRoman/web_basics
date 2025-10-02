@@ -1,12 +1,13 @@
+<html>
 <!doctype html>
 <html lang=ua>
   <head>
     <meta charset=utf-8>
-    <title>лаболаторна робота №2</title>
+    <title>Про мене</title>
   </head>      
   <body>
-    <h1>Моя лаболаторна робота №2</h1>
-    <h2>Основні відомості</h2>
+    <h1>Про автора (About me)</h1>
+    <h2>Вступ</h2>
     <p>
       За посиланням нижче Ви можете переглянути 
       <strong>відомості про автора</strong>
