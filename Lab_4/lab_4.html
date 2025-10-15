@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя перша html-форма</title>
+</head>
+<body>
+    <h1>Моя перша html-форма</h1>
+    
+    <form method="post" action="https://httpbin.org/post">
+        <label for="name">Ім'я:</label>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label>
+            Дата народження:
+            <input type="date" name="dob">
+        </label><br><br>
+
+        <label for="email">Імейл:</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label>
+            Повідомлення: <br>
+            <textarea name="message" rows="5" cols="40"></textarea>
+        </label><br><br>
+
+        <fieldset>
+            <legend>Ваші улюблені напої?</legend>
+            <label><input type="checkbox" name="drinks" value="coffee"> Кава</label><br>
+            <label><input type="checkbox" name="drinks" value="tea"> Чай</label><br>
+            <label><input type="checkbox" name="drinks" value="juice"> Сік</label><br>
+            <label><input type="checkbox" name="drinks" value="water"> Вода</label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Моя національність</legend>
+            <label><input type="radio" name="nationality" value="ukrainian"> Українець</label><br>
+            <label><input type="radio" name="nationality" value="polish"> Поляк</label><br>
+            <label><input type="radio" name="nationality" value="german"> Німець</label>
+        </fieldset><br>
+
+        <button type="submit">Надіслати</button>
+        <button type="reset">Очистити</button>
+    </form>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="https://picsum.photos/300/500">
+        <img src="https://picsum.photos/1000/400" alt="Random image">
+    </picture>
+</body>
+</html>
